@@ -1,0 +1,64 @@
+.container {
+  margin: 10%;
+  background-color: lavender;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.centerXY {
+  /* Horizontal and vertical alignment */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1, section {
+  position: relative;
+  color: blue;
+}
+
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+  color: black;
+  background-color: linen;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 18px;
+  margin: 4px 2px;
+}
+
+button:hover {
+  color: lightcoral;
+}
+
+li {
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+  color: dimgray;
+}
+
+li:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+a {
+  display: block;
+}
